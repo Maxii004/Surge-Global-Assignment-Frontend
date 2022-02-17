@@ -50,7 +50,6 @@ const UserLogin = () => {
             .then(
                 (response) => {
                     console.log(response);
-                    // console.log(response.headers);
                     let response1 = response.headers;
                     let response2 = Object.values(response1);
                     let response3 = response2[2];
@@ -60,15 +59,10 @@ const UserLogin = () => {
                     let data3 = data2[2];
                     
                     let userId = data2[0];
-                    // console.log(response3);
-                    // console.log(data3);
-                    // console.log(userId);
 
-                    //jwtPrivateKey
                     localStorage.setItem(tokenKey,response3);
                     localStorage.setItem(isLoggedIn,true);
                     localStorage.setItem(userLocalId,userId);
-                    // history.push('/');
                     window.location.reload();
                 },
                 (error) => {
@@ -93,7 +87,7 @@ const UserLogin = () => {
     return (
         <div className = "pages">
             <div className = "container">
-                <div className = "formstyle">
+                <div className = "forms">
                 <h1>Login</h1>
                 <form onSubmit = {handleSubmit}>
                     

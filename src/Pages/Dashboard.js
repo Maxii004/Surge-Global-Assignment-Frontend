@@ -55,7 +55,7 @@ const Dashboard = () => {
 
         <div className="pages">
             <div className="container">
-                <div className="formstyle">
+                <div className="forms">
                     <h1>Dashboard</h1><br/>
                         <h2>Full Name:</h2> <h3>{user && user.fullName}</h3> 
                         <h2>Username: </h2> <h3>{user && user.userName}</h3>
