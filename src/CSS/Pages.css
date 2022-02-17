@@ -1,0 +1,150 @@
+.pages {
+    background: rgb(197, 197, 197);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    position: absolute;
+  }
+  
+  .container {
+    font-family: "Quicksand";
+    background: rgba(229, 229, 229, 1);
+    width: 467px;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    justify-content: center;
+    border: 2px black;
+  }
+  
+  .formstyle {
+    max-width: 600px;
+    margin: 0;
+    text-align: left;
+    border: 2px black;
+  }
+
+  .formstyle label {
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px black;
+  }
+  
+  .formstyle h1 {
+    font-size: 40px;
+    margin: 0%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: #ff3232;
+    border: 2px black;
+  }
+
+  .formstyle h2 {
+    font-size: 30px;
+    margin: 0%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: #b93737;
+    border: 2px black;
+  }
+
+  .formstyle h3 {
+    font-size: 20px;
+    margin: 0%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: #525252;
+    border: 2px black;
+  }
+  
+  .formstyle p {
+    margin: 0% 0%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #f1356d;
+    border: 2px black;
+  }
+  
+  .formstyle input,
+  .formstyle textarea {
+    align-items: center;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 5% 0;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    border: 2px black;
+  }
+  
+  .formstyle select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .formstyle button {
+    background: #ff3232;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 70px;
+    display: inline-flex ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20%;
+  }
+  
+  .formstyle button:hover {
+    color: black;
+    transition: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .updateLogout {
+    background: #ff3232;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: inherit;
+    padding: 15px 70px;
+    display: inline-flex ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 2%;
+  }
+  
+  .updateLogout:hover {
+    color: black;
+    transition: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
